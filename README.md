@@ -34,3 +34,35 @@ https://shona-frontend.vercel.app/
 
 This frontend connects to a FastAPI backend: https://shona-translation-ai.onrender.com
 
+POST /translate
+GET /history
+
+
+Update API base URL in code:
+
+http://127.0.0.1:8000
+
+For production:
+
+https://your-backend-url.onrender.com
+
+Running Locally
+npm install
+npm run dev
+
+App runs on:
+http://localhost:3000
+
+Build
+npm run build
+npm run start
+
+Screenshots
+<img width="2780" height="1682" alt="Screenshot 2026-06-23 213240" src="https://github.com/user-attachments/assets/45b728f7-aa6b-467e-a600-14dfde477cc8" />
+
+
+Author
+
+Prince (you)
+Full Stack Developer | AI Enthusiast
+
