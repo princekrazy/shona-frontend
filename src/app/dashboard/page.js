@@ -6,7 +6,7 @@ export default function Dashboard() {
   const [stats, setStats] = useState(null);
 
   useEffect(() => {
-    fetch("https://shona-translation-ai.onrender.com/stats")
+    fetch("https://shona-translation-ai-4p67.onrender.com/stats")
       .then((res) => res.json())
       .then(setStats);
   }, []);

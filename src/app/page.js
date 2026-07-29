@@ -17,7 +17,7 @@ export default function Home() {
   async function loadHistory() {
     try {
       const res = await fetch(
-        "https://shona-translation-ai.onrender.com/history",
+        "https://shona-translation-ai-4p67.onrender.com/history",
       );
       const data = await res.json();
       setHistory(data);
@@ -34,7 +34,7 @@ export default function Home() {
 
     try {
       const res = await fetch(
-        "https://shona-translation-ai.onrender.com/translate",
+        "https://shona-translation-ai-4p67.onrender.com/translate",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
