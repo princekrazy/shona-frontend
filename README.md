@@ -32,7 +32,7 @@ https://shona-frontend.vercel.app/
 
 ##  Backend Integration
 
-This frontend connects to a FastAPI backend: https://shona-translation-ai.onrender.com
+This frontend connects to a FastAPI backend: https://shona-translation-ai-4p67.onrender.com
 
 POST /translate
 GET /history
